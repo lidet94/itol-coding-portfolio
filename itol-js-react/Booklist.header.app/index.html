@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bana's Coding Portfolio</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2em;
+    }
+    h1 {
+      color: #333;
+    }
+    h2 {
+      color: purple;
+    }
+    label {
+      font-weight: bold;
+    }
+    input, button {
+      margin-top: 0.5em;
+    }
+    button{
+      font-size: large;
+    }
+  </style>
+
+</head>
+<body>
+    
+    <h1 id="header">Welcome to my Coding Portfolio</h1>
+    <button id="button" onclick="changeText()">Click me &#128064;</button>
+    <hr />
+
+    <h2>Book List</h2>
+    <p>This mini-project allows users to add their favourite books dynamically using JavaScript.</p>
+
+    <form id="addBook" onsubmit="addBook(event)">
+
+        <label for="enterBook">Enter a book title:</label>
+        <br />
+        <input type="text" id="enterBook" name="enterBook" placeholder="Type here">
+        
+        <button type="submit">Add</button>
+    </form>
+
+    <p id="book-list"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
