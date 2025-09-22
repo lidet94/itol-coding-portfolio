@@ -16,4 +16,6 @@ This project combines two JavaScript exercises:
 - Updating the DOM based on user input
 
 ## How to Run
-Open `itol-js-react/Booklist.header.app/index.html` in your browser. All logic handled in `itol-js-react/Booklist.header.app/script.js`.
+Open `index.html` in your browser. 
+All logic handled in `script.js`. 
+Located within `itol-js-react/Booklist.header.app/` folder.
