@@ -16,7 +16,7 @@ Focused on building static websites using semantic HTML and CSS techniques. I co
 
 Projects focused on interactivity, DOM manipulation, and component-based development using Javascript and React.
 
-- [Header Toggle & Book List App](https://github.com/lidet94/itol-js-react-projects/tree/main/Booklist.header.app)
+- [Header Toggle & Book List App]([https://github.com/lidet94/itol-coding-portfolio/tree/main/itol-js-react/Booklist.header.app])
 
 ---
 
