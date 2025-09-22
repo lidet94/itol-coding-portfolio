@@ -19,3 +19,9 @@ This project combines two JavaScript exercises:
 Open `index.html` in your browser. 
 All logic handled in `script.js`. 
 Located within `itol-js-react/Booklist.header.app/` folder.
+
+![](images/images/booklist.png)
+![](images/images/added%20booklist.png)
+![](images/images/click%20button.png)
+![](images/images/clicked%20button.png)
+![](images/images/window%20alert.png)
