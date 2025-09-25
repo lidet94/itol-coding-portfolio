@@ -10,10 +10,11 @@ It includes:
 - Running JavaScript modules in the browser with <script type="module">
 
 # Files
-bankAccount.js: - defines the BankAccount class and its methods
+- bankAccount.js - defines the BankAccount class and its methods
 - index.js – creates account instances and performs actions
 - index.html – loads the JavaScript and connects everything in the browser
 
 # How to Run
 Open index.html using Live Server in VS Code.
 Modules won’t work with direct file paths (file://) due to browser security rules.
+
