@@ -1,0 +1,60 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+    background-color:  rgba(245, 222, 179, 0.3);
+}
+
+/*Header section*/
+
+h1{
+ font-size: 35px;
+}
+
+/*Main section*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 95vw;
+}
+
+.content{
+    padding: 80px;
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: rgb(178, 245, 222);
+}
+
+#inputField{
+    padding: 6px
+}
+
+/*Classes created within Javasrcript*/
+
+/*li element - list of added task*/
+.listed-items {
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/*button elements - add, completed, remove button */
+.addButton,
+.completed-button,
+.remove-button {
+   margin-left: 10px;
+   padding: 5px 15px;
+   border-radius: 3px;
+   cursor: pointer;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 15px;
+}
+
+.addButton:hover,
+.completed-button:hover, 
+.remove-button:hover {
+    background-color: rgba(107, 142, 35, 0.7);
+    transition: background-color 0.4s ease;
+}
+
