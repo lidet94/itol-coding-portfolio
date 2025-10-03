@@ -1,0 +1,89 @@
+body {
+    background-image: url("images/png-transparent-background-3.png");
+    font-family: sans-serif;
+}
+
+header {
+    color: blue;
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(148, 147, 147);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+/*Classes for the li elements created within JS*/
+.quickCategory,
+.moderateCategory,
+.longCategory {
+    padding: 5px;
+    list-style-type: decimal-leading-zero;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.quickCategory {
+    background-color: rgb(134, 218, 134);
+}
+
+.moderateCategory {
+    background-color: rgb(222, 200, 159);
+}
+
+.longCategory {
+    background-color: rgb(221, 141, 141);
+}
+
+/*Total minutes*/
+.totalContainer {
+    display: inline-block;
+    margin: 10px auto;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background-color: beige;
+}
+
+/*Add task button*/
+button {
+    padding: 5px 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgb(192, 187, 187);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(200, 140, 190);
+    cursor: pointer;
+}
+
+section {
+    display: grid;
+    align-items: center;
+    border: 2px solid green;
+    margin: 150px 600px;
+    padding: 5px;
+    background-color: rgb(180, 209, 219);
+
+}
+
+/*Label fields*/
+label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+/*Input fields*/
+input {
+    padding: 5px 0;
+}
