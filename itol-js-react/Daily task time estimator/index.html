@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Time Estimator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>TASK LIST APP</header>
+    <br>
+
+    <section class="mainContainer">
+
+        <h1>TODAYS TASK LIST</h1>
+        <label for="task">Name of Task:</label><br>
+        <input type="text" id="task" name="task"><br>
+
+        <label for="time">Estimated Time (in minutes):</label><br>
+        <input type="number" id="time" name="time"><br><br>
+
+        <button id="button">Add Task</button>
+
+        <p>
+        <ul id="list"></ul>
+        </p>
+        <div class="totalContainer">
+            <p id="displayTotalMinutes"> Total minutes:</p>
+        </div>
+
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
