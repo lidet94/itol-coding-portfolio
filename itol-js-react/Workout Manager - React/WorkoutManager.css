@@ -1,0 +1,140 @@
+/* --- Heading --- */
+.workout-heading {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #222;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+/* Decorative underline */
+.workout-heading::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background: #0078ff;
+  display: block;
+  margin: 0.5rem auto 0;
+  border-radius: 2px;
+}
+
+/* --- Layout Wrapper --- */
+.workout-manager {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+}
+
+/* --- Form Styling --- */
+.workout-form {
+    background: #f8f8f8;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.workout-form input,
+.workout-form select {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.workout-form h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* --- Category Buttons --- */
+.category-buttons button {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #e0e0e0;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.category-buttons button:hover {
+    background: #d0d0d0;
+}
+
+/* Highlight selected categories */
+.category-buttons .selected {
+    background: #4caf50;
+    color: white;
+}
+
+/* --- Add Exercise Button --- */
+.add-exercise-btn {
+    margin-top: 1rem;
+    padding: 0.7rem 1.2rem;
+    background: #0078ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.add-exercise-btn:hover {
+    background: #005fcc;
+}
+
+/* --- Columns Layout --- */
+.columns {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    background: #fafafa;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.column h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* --- Exercise Cards --- */
+.exercise-card {
+    background: white;
+    padding: 0.8rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+}
+
+.exercise-card p {
+    margin: 0.3rem 0;
+}
+
+.exercise-card button {
+    margin-top: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.exercise-card button:hover {
+    background: #d93636;
+}
