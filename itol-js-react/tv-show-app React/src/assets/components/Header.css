@@ -1,0 +1,20 @@
+header {
+  background: #222;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1, header h2 {
+  margin: 0;
+}
+
+nav a {
+  color: #ffdd57;
+  text-decoration: none;
+  font-weight: bold;
+}
